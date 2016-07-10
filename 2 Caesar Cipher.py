@@ -5,7 +5,7 @@
 import pyperclip
 
 message = input("Enter message: ")
-iKey = input("Key [1-26]: ")
+key = int(input("Key [1-26]: "))
 mode = input("Encrypt or Decrypt [e/d]: ")
 
 if mode == "e" or mode == "E":
@@ -14,7 +14,6 @@ elif mode == "d" or mode == "D":
     mode = "decrypt"
 
 LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-key = int(iKey)
 
 translated = ""
 
