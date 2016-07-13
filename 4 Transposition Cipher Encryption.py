@@ -24,6 +24,3 @@ def encryptMessage(key, message):
 
 if __name__ == '__main__':
     main()
-    
-
-

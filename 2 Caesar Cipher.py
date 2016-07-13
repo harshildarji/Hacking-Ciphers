@@ -42,4 +42,3 @@ elif mode == "decrypt":
     print("Decryption:", translated)
 
 pyperclip.copy(translated)
-
