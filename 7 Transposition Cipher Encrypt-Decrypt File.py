@@ -1,5 +1,4 @@
 # Transposition Cipher Encrypt/Decrypt File
-
 # Source: http://inventwithpython.com/hacking (BSD Licensed)
 # Modified by: Harshil Darji (github.com/H-Darji)
 
