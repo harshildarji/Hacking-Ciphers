@@ -22,10 +22,10 @@ def main():
             sys.exit()
             
     startTime = time.time()
-    if mode.lower() == 'e':
+    if mode.lower().startswith('e'):
         content = open(inputFile).read()
         translated = transEncrypt.encryptMessage(key, content)
-    elif mode.lower() == 'd':
+    elif mode.lower().startswith('d'):
         content = open(outputFile).read()
         translated = transDecrypt.decryptMessage(key, content)
 

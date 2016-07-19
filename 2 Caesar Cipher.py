@@ -8,9 +8,9 @@ message = input("Enter message: ")
 key = int(input("Key [1-26]: "))
 mode = input("Encrypt or Decrypt [e/d]: ")
 
-if mode == "e" or mode == "E":
+if mode.lower().startswith('e'):
     mode = "encrypt"
-elif mode == "d" or mode == "D":
+elif mode.lower().startswith('d'):
     mode = "decrypt"
 
 LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
