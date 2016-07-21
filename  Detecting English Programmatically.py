@@ -1,7 +1,5 @@
-# Detecting English Programmatically
+# Detecting English Programmatically [Support Module]
 # Source: http://inventwithpython.com/hacking (BSD Licensed)
-
-# This program won't run itself, instead we need to call this using import.
 
 UPPERLETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 LETTERS_AND_SPACE = UPPERLETTERS + UPPERLETTERS.lower() + ' \t\n'
