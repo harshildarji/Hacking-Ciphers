@@ -3,8 +3,8 @@
 # Modified by: Harshil Darji (github.com/H-Darji)
 
 import pyperclip
-transDecrypt = __import__('5 Transposition Cipher Decryption')
-detectEnglish = __import__('8 Detecting English Programmatically')
+transDecrypt = __import__(' Transposition Cipher Decryption')
+detectEnglish = __import__(' Detecting English Programmatically')
 
 def main():
     message = input('Enter encrypted message: \n')

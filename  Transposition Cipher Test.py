@@ -3,8 +3,8 @@
 # Modified by: Harshil Darji (github.com/H-Darji)
 
 import random, sys
-transEncrypt = __import__('4 Transposition Cipher Encryption')
-transDecrypt = __import__('5 Transposition Cipher Decryption')
+transEncrypt = __import__(' Transposition Cipher Encryption')
+transDecrypt = __import__(' Transposition Cipher Decryption')
 
 def main():
     random.seed(42)

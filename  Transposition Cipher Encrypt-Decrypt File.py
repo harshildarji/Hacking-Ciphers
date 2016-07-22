@@ -3,8 +3,8 @@
 # Modified by: Harshil Darji (github.com/H-Darji)
 
 import time, os, sys
-transEncrypt = __import__('4 Transposition Cipher Encryption')
-transDecrypt = __import__('5 Transposition Cipher Decryption')
+transEncrypt = __import__(' Transposition Cipher Encryption')
+transDecrypt = __import__(' Transposition Cipher Decryption')
 
 def main():
     inputFile = 'Frankenstein.txt'
