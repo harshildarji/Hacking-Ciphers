@@ -2,10 +2,9 @@
 # http://inventwithpython.com/hacking (BSD Licensed)
 # Modified by: Harshil Darji (github.com/H-Darji)
 
-import pyperclip
-affineCipher = __import__('Affine Cipher')
-detectEnglish = __import__('Detecting English Programmatically')
-cryptoMath = __import__('Cryptomath Module')
+import pyperclip, affine_cipher as affineCipher
+import detecting_english_programmatically as detectEnglish
+import cryptomath_module as cryptoMath
 
 SILENT_MODE = False
 

@@ -4,8 +4,7 @@
 
 # This program proves that the keyspace of the affine cipher is limited to len(SYMBOLS) ^ 2.
 
-cryptoMath = __import__('Cryptomath Module')
-affineCipher = __import__('Affine Cipher')
+import affine_cipher as affineCipher, cryptomath_module as cryptoMath
 
 message = 'Make things as simple as possible, but not simpler.'
 print('Message: %s\nEncryption using key,' % message)

@@ -2,9 +2,7 @@
 # Source: http://inventwithpython.com/hacking (BSD Licensed)
 # Modified by: Harshil Darji (github.com/H-Darji)
 
-import random, sys
-transEncrypt = __import__('Transposition Cipher Encryption')
-transDecrypt = __import__('Transposition Cipher Decryption')
+import random, sys, transposition_cipher_encryption as transEncrypt, transposition_cipher_decryption as transDecrypt
 
 def main():
     random.seed(42)

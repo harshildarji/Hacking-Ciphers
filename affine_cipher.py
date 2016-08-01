@@ -2,8 +2,7 @@
 # Source: http://inventwithpython.com/hacking (BSD Licensed)
 # Modified by: Harshil Darji (github.com/H-Darji)
 
-import sys, pyperclip, random
-cryptoMath = __import__('Cryptomath Module')
+import sys, pyperclip, random, cryptomath_module as cryptoMath
 
 SYMBOLS = """ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~"""
 

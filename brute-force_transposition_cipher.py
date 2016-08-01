@@ -2,9 +2,7 @@
 # http://inventwithpython.com/hacking (BSD Licensed)
 # Modified by: Harshil Darji (github.com/H-Darji)
 
-import pyperclip
-transDecrypt = __import__('Transposition Cipher Decryption')
-detectEnglish = __import__('Detecting English Programmatically')
+import pyperclip, detecting_english_programmatically as detectEnglish, transposition_cipher_decryption as transDecrypt
 
 def main():
     message = input('Enter encrypted message: \n')
