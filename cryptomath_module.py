@@ -1,5 +1,5 @@
 # Cryptomath Module [Support Module]
-# http://inventwithpython.com/hacking (BSD Licensed)
+# Source: http://inventwithpython.com/hacking (BSD Licensed)
 
 def gcd(a, b):
     while a != 0:

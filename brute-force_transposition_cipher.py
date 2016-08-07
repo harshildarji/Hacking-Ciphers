@@ -1,5 +1,5 @@
 # Transposition Cipher Hacker
-# http://inventwithpython.com/hacking (BSD Licensed)
+# Source: http://inventwithpython.com/hacking (BSD Licensed)
 # Modified by: Harshil Darji (github.com/H-Darji)
 
 import pyperclip, detecting_english_programmatically as detectEnglish

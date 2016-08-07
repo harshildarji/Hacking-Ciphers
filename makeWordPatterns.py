@@ -1,5 +1,5 @@
 # Make wordPatterns.py File
-# http://inventwithpython.com/hacking (BSD Licensed)
+# Source: http://inventwithpython.com/hacking (BSD Licensed)
 
 import pprint, time
 
