@@ -20,8 +20,8 @@ def main():
         mode = 'decrypt'
         translated = decryptMessage(key, message)
 
-    print('\n%sion: \n%s' % (mode.title(), translated))
-    print('\n--- %sion copied to clipboard ---' % mode.title())
+    print('\nCopying %sion to clipboard:' % mode.title())
+    print('%s' % translated)
     pyperclip.copy(translated)
 
 def checkValidKey(key):
