@@ -1,5 +1,6 @@
 # RSA Key Generator
 # Source: http://inventwithpython.com/hacking (BSD Licensed)
+# Modified by: Harshil Darji (github.com/H-Darji)
 
 import random, sys, os
 import rabin_miller as rabinMiller, cryptomath_module as cryptoMath
@@ -7,7 +8,7 @@ import rabin_miller as rabinMiller, cryptomath_module as cryptoMath
 def main():
     print('Making key files...')
     makeKeyFiles('rsa', 1024)
-    print('\nKey files generation successful.')
+    print('Key files generation successful.')
 
 def generateKey(keySize):
     print('Generating prime p...')
@@ -27,10 +28,6 @@ def generateKey(keySize):
 
     publicKey = (n, e)
     privateKey = (n, d)
-
-    print('\nPublic key:', publicKey)
-    print('\nPrivate key:', privateKey)
-
     return (publicKey, privateKey)
 
 def makeKeyFiles(name, keySize):
@@ -40,13 +37,11 @@ def makeKeyFiles(name, keySize):
         sys.exit()
 
     publicKey, privateKey = generateKey(keySize)
-    print('\nPublic key is %s and %s digit number.' % (len(str(publicKey[0])), len(str(publicKey[1]))))
-    print('Writing public key to file %s_pubkey.txt...' % name)
+    print('\nWriting public key to file %s_pubkey.txt...' % name)
     with open('%s_pubkey.txt' % name, 'w') as fo:
         fo.write('%s,%s,%s' % (keySize, publicKey[0], publicKey[1]))
 
-    print('\nPrivate key is %s and %s digit number.' % (len(str(privateKey[0])), len(str(privateKey[1]))))
-    print('Writing public key to file %s_privkey.txt...' % name)
+    print('Writing private key to file %s_privkey.txt...' % name)
     with open('%s_privkey.txt' % name, 'w') as fo:
         fo.write('%s,%s,%s' % (keySize, privateKey[0], privateKey[1]))
 
